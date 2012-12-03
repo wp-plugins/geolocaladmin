@@ -1,0 +1,3 @@
+.map_canvas { width: 100%; height: 350px; }
+.widgets-php .map_canvas { width: 225px;height:300px;margin:10px 0; }
+#blocked{display: block;
