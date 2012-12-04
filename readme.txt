@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Track any of the website admin users, every time they connect, and display a googlemap of theire last connect. Just perfect for travelling blogs!!!
 
 == Description ==
 
@@ -19,16 +19,23 @@ On version 0.2 theyre will be more usefull widget setting, a plugin setting page
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload `geolocaladmin.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to the widgets page and add a GeolocalAdmin widget and choose the user;
+3. Go to the widgets page, add a GeolocalAdmin widget and choose the user;
+Youshould see the geolocalsiation working.
 
 == Frequently Asked Questions ==
 
+How does it´s works ?
+Just install and then add as many widget as you want.Choose the user you want to track in the list(Default on first super admin);
+You can check block box to avoid future detection and stay on current map.
+
+When does it's geolocalise?
+Everytime you acces to the main panel, you acces to widget page or save the widget.
+
+Why does it´s not working for me?
+The plugin works with HTML5 geolocalisation so it's won't works with old browsers (mainly below IE9).
 
 
 == Screenshots ==
@@ -44,27 +51,11 @@ e.g.
 
 
 
-== A brief Markdown Example ==
+== Support ==
 
 Ordered list:
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
+I can't garanty a fullsupport but still can contact me and i'll try to help you!!
 
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+Any help is welcome : here's the github repository :
+https://github.com/mateo-design/geolocaladmin
