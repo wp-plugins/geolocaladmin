@@ -57,5 +57,7 @@ Ordered list:
 
 I can't garanty a fullsupport but still can contact me and i'll try to help you!!
 
+hello@mateo-design.com
+
 Any help is welcome : here's the github repository :
 https://github.com/mateo-design/geolocaladmin
